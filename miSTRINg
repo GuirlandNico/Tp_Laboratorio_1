@@ -1,0 +1,24 @@
+#include <stdio.h> 
+#include <stlid.h> 
+#include <string.h> 
+#define STRINGLEN 500
+
+int main()
+{
+  char miString(STRINGLEN);
+  strncpy(miString, "pepe", STRINGLEN);
+  printf("%s", miString);
+  
+  //if (!strncmp("abc",miString, STRINGLEN));
+  {
+  }
+  printf("ingrese su nombre: ");
+  fgets(miString, STRINGLEN, stdin);
+ printf("Hola %s", miString);
+  
+    printf("ingrese su nombre: ");
+  fgets(miString, STRINGLEN, stdin);
+ printf("Hola %s", miString);
+  
+return 0;
+}
