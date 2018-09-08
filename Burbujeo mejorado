@@ -1,0 +1,13 @@
+void insertionSort (int array[], int size)
+
+int i,j, auxiliar;
+for (i=1;i<array;i++)
+{
+auxiliar=arrays[i];
+j=i;
+while(j>0 && auxiliar<array[j-1])
+array[j]= array[j-1];
+j--;
+}
+array[j] = auxiliar;
+}
